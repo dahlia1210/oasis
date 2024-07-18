@@ -40,6 +40,7 @@ function App() {
               }
             >
               <Route index element={<Navigate replace to="dashboard" />} />
+              <Route path="oasis" element={<Dashboard />} />
               <Route path="dashboard" element={<Dashboard />} />
               <Route path="bookings" element={<Bookings />} />
               <Route path="bookings/:bookingId" element={<Booking />} />
